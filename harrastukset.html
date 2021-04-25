@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisztina Karizs - Harrastusket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            color: #555;
+            font-size: 20px;
+            font-weight: 400;
+            background-color: #b2dfd6;
+            width: 75%;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            text-transform: uppercase;
+            padding: 20px 10px;
+        }
+
+        footer { text-align: center; }
+
+        .nav li {
+            display: inline-block;
+            list-style-type: none;
+            margin-right: 20px;
+        }
+
+        a:link,
+        a:visited {
+            color: #324e48;
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 2px solid transparent;
+            -webkit-transition: border-bottom 0.2s;
+            transition: border-bottom 0.2s;
+        }
+
+        a:hover,
+        a:active {
+            border-bottom: 2px solid #dd9206;
+            color: #dd9206;
+        }
+
+        .media_container {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        img {
+            display: inline-block;
+            margin-right: 10px;
+            border-radius: 3px;
+            width: 250px;
+            height: 350px;
+            transition: transform .3s;
+        }
+
+        img:hover { transform: translateY(15px) scale(1.03); }
+
+        video { border-radius: 3px; }
+
+        h1, h2 {
+            color: #324e48;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+
+        h1 {
+            font-size: 250%;
+            margin-top: 10px;
+            margin-bottom: 30px;
+
+        }
+
+        h2 {
+            margin: 40px 0 20px 0;
+            font-size: 160%;
+        }
+
+        p {
+            line-height: 138%;
+            margin-bottom: 10px;
+        }
+
+        .my-list { margin-left: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krisztina Karizs - Harrastukset</h1>
+        <ul class="nav">
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="harrastukset.html">Harrastukset</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Kirjallisuus</h2>
+        <p><strong>Kirjallisuus on tärkeä osa elämääni.</strong> Olen valmistunut unkarin kirjallisuuden kandidaatiksi vuona 2010 sitten suomen kielen ja kirjallisuuden maisteriksi vuonna 2013. Valmistuttuani olen ryhtynyt tutkijaksi ja olen julkaissut muutamaa artikkelia kansainvälisissä lehdissä. Olen kirjoittanut esimerkiksi Sofi Oksasen Puhdistuksesta sekä unkariliasesta nykykirjallisuudesta.
+        Vaikka olen tehnyt kirjallisuustutkimusta monta vuotta, luen paljon myös harrastuksena. Tykkään aasialaisesta, suomalaisesta sekä ameriikkalaisesta nykykirjallisuutta. Alla on lista suosikkikirjoistani:</p>
+        <ol class="my-list">
+            <li>Monika Fagerholm: Amerikkalainen tyttö</li>
+            <li>Han Kang: Human Acts</li>
+            <li>Haruki Murakami: Kafka on the Shore</li>
+        </ol>
+        <h2>Ulkoilu ja valokuvaus</h2>
+        <p><strong>Kun teen paljon töitä tietokoneen ääressä, ulkoilen paljon vapaa-ajalla.</strong> Käyn lenkillä koirien kanssa kaksi kertaa päivässä, ja retkeilen koirien ja perheen kanssa pari kertaa viikossa. Tykkään valokuvausta todella paljon, siksi otan monta kuvaa koirista tai luonnosta retkillä. Alla on kuvia meidän seikkailuista:</p>
+        <div class="media_container">
+            <img src="images/ulkoilu1-min.jpg" alt="Kotalampi">
+            <img src="images/ulkoilu2-min.jpg" alt="Me and my dog in a park">
+            <img src="images/ulkoilu3-min.jpg" alt="Finnish winter view">
+        </div>
+        <h2>Pelit ja teknologia</h2>
+        <p><strong>Tietokonepelit ovat olleet harrastuksissani kauan.</strong> Äitini osti minulle ensimmäisen tietokoneen kun olin 12 vuotta vanha ja olen heti rakastanut teknologiaan ja myös peleihin. Tykkään eniten seikkailupeleistä, joilla on jännittävä ja mielenkiintoinen tarina. Suosikkien joukosta löytyvät muun muassa Life is Strange, The Walking Dead ja Assassin's Creed. Nykyään pelaan paljon animepelejä Nintendo Switchillä sekä tykkään myös Nintendon urheilupelit.</p>
+        <div class="media_container">
+            <video width="500" height="auto" controls autoplay muted>
+            <source src="media/game.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <footer>
+        <h2>Yhteystiedot</h2>
+        <address>Laittaa sähköpostin osoitteeseen: <a href="mailto:krista@gmail.com">krista@gmail.com</a> tai soita numeroon <a href="tel:000000000">033-3333-333</a>. </address>
+    </footer>
+</body>
+</html>

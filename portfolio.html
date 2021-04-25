@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisztina Karizs - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            color: #555;
+            font-size: 20px;
+            font-weight: 400;
+            background-color: #b2dfd6;
+            width: 75%;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            text-transform: uppercase;
+            padding: 20px 10px;
+        }
+
+        footer { text-align: center; }
+
+        .nav li {
+            display: inline-block;
+            list-style-type: none;
+            margin-right: 20px;
+        }
+
+        a:link,
+        a:visited {
+            color: #324e48;
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 2px solid transparent;
+            -webkit-transition: border-bottom 0.2s;
+            transition: border-bottom 0.2s;
+        }
+
+        a:hover,
+        a:active {
+            border-bottom: 2px solid #dd9206;
+            color: #dd9206;
+        }
+
+        .media_container {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        video { border-radius: 3px; }
+
+        h1, h2 {
+            color: #324e48;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+
+        h1 {
+            font-size: 250%;
+            margin-top: 10px;
+            margin-bottom: 30px;
+
+        }
+
+        h2 {
+            margin: 40px 0 20px 0;
+            font-size: 160%;
+        }
+
+        p {
+            line-height: 138%;
+            margin-bottom: 10px;
+        }
+
+        .my-list { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krisztina Karizs - Portfolio</h1>
+        <ul class="nav">
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="harrastukset.html">Harrastukset</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Tarina</h2>
+        <p>Olen päättänyt siirtyä IT-alalle, koska olen erittäin kiinnostunut teknologiasta ja nopeasti kehittyvästä digitaalisesta maailmasta. Toivoisinkin tehdä luovaa työtä, jolla on mahdollisuus vaikuttaa. Unelmoin urasta, joka tarjoaa jatkuvasti uutta tietoa, jännittäviä haasteita ja erityisesti mahdollisuuden itseni kehittämiseen. Uskon, että alan asiantuntijana pääsisin osaksi tulevaisuutta ja voisin myös osallistua sen rakentamiseen. Viime vuonna aloitin web-kehityksen ja -suunnittelun opinnot ja olen erittäin kiinnostunut JavaScript- ja Python-koodikielistä.</p>
+        <h2>Työkokemus</h2>
+        <ul class="my-list">
+            <li><strong>IBM Global Financing</strong> - <em>Account Specialist</em> - 2020 kesäkuusta alkaen</li>
+            <li><strong>IBM Global Financing</strong> - <em>Accounts Receivable Collector</em> - 02.2018 - 06.2020.</li>
+            <li><strong>Veeva Systems</strong> - <em>Master Data</em> - 09.2017 - 02.2018.</li>
+        </ul>
+        <h2>Kokemus humanistisella alalla</h2>
+        <p>Vuonna 2014, muutin Etälä-Koreaan, jossa olin töissä apulaisprofessorina Hankuk University of Foreign Studies nimisessä yliopistossa. Olen opettanut unkarin kieltä sekä käynnistänyt suomen kielen ja kulttuurin opettamiseen liittyvää projektia. Parhain saavutukseni on se, että minun opiskelijat ovat saaneet mahdollisuuden osallistua suomen kielen ja kirjallisuuden kesäkurssiin Turussa. </p>
+        <h2>Web-kehitys</h2>
+        <p>Olen erittäin kiinnostunut web-kehityksestä ja olen suorittanut muutamaa kurssia viime vuonna. Alla on pieni video projektista, jota olen koodannut Udemy opettajan suunnitelmien mukaan.</p>
+        <div class="media_container">
+            <video width="500" height="auto" controls autoplay muted>
+            <source src="media/projekti.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <footer>
+        <h2>Yhteystiedot</h2>
+        <address>Laittaa sähköpostin osoitteeseen: <a href="mailto:krista@gmail.com">krista@gmail.com</a> tai soita numeroon <a href="tel:000000000">033-3333-333</a>. </address>
+    </footer> 
+</body>
+</html>
